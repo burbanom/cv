@@ -13,10 +13,10 @@ en-short: cv-en-short.tex
 
 # dependencies
 # ------------
-cv-fr-short.tex: img/germain.JPG bib/achemso_perso.bst bib/articles.bib
-cv-en-short.tex: img/germain.JPG bib/achemso_perso.bst bib/articles.bib
+cv-fr-short.tex: img/LG.png
+cv-en-short.tex: img/LG.png
 
-# WARNING sauvage clean
+# WARNING
 # ---------------------
 clean:
 	@echo ""
