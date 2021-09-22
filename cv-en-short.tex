@@ -3,8 +3,8 @@
 
 \documentclass{cv-style}     % Add 'print' as an option into the square bracket to remove colours from this template for printing.
 
-\setdefaultlanguage[variant=british]{english}
-\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut
+\setdefaultlanguage{french}
+\sethyphenation{french}{} % Add words between the {} to avoid them to be cut
 
 %----------------------------------------------------------------------------------------
 %	Page layout
@@ -13,54 +13,43 @@
 \cvasidewidth{4.7}
 \cvasidevpos{3.5}
 \cvmainwidth{11.5cm}
-\geometry{left=6.4cm, top=2.5cm, right=1cm, bottom=5mm}
-
-%----------------------------------------------------------------------------------------
-%	Bibliography
-%----------------------------------------------------------------------------------------
-\usepackage[sectcntreset]{bibtopic}
-\usepackage{natbib}
-\bibliographystyle{bib/achemso_perso}
-\AtBeginDocument{\nocite{achemso-control}}
-%\setlength{\bibsep}{2pt plus 0.3ex}
+\geometry{left=6.4cm, top=2.5cm, right=1cm, bottom=1cm}
 
 %----------------------------------------------------------------------------------------
 %	hyperlink setup
 %----------------------------------------------------------------------------------------
 \hypersetup{
-    pdftitle=Resume \textbar{} Laura Gomez,%
+    pdftitle=CV \textbar{} Laura Gomez,%
     pdfauthor=Laura Gomez
 }
 
 %----------------------------------------------------------------------------------------
 %	Setup las updated text
 %----------------------------------------------------------------------------------------
-%\lastupdated{Last Updated on \today}
+%\lastupdated{Mise à jour le \today}
 
 %----------------------------------------------------------------------------------------
 %	Add a few custom packages
 %----------------------------------------------------------------------------------------
-\usepackage{fontawesome5}
-
-% \usepackage{academicons}
-% \definecolor{orcidlogocol}{HTML}{A6CE39}
+\usepackage{fontawesome}
 
 \begin{document}
 
-\header{Laura }{Gomez}{Tecnical Project Manager in Mechatronics and Biomechanics}          % Your name
+\header{Laura }{Gomez}{Chef de projet technique en mécatronique et biomécanique}         % Your name
+%\lastupdated
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION  -- In the aside, each new line forces a line break
 %----------------------------------------------------------------------------------------
 
 \begin{aside}
-    \includegraphics[width=.8\columnwidth]{img/gvallver-red2}
-    {\color{gray} \faFlask}Immediate availability
-    {\color{gray} \faFlask}B Permit
+    \includegraphics[width=.8\columnwidth]{img/LG}
+    \textbf{Disponibilité immédiate}
+    \textbf{Permis B}
     ~
-    French Nationality
-    13th of January, 1989, France
-    In concubinage
+    Nationalité Française
+    13 janvier 1989, France
+    En concubinage
     %
     \section{Contact}
     laura-gomez@gmx.fr
@@ -70,212 +59,190 @@
     92160 Antony
     France
     %
-    \section{Contact}
-    germain.vallverdu@univ-pau.fr
-    (33) 5 59 40 78 51
-    (33) 6 88 59 08 87
+    \section{Gestion de projet}
+    Microsoft Office
+    ERP (Dolibarr, Sage)
+    Gestion des exigences (DOORS, Reqtify)
     ~
-    {\color{gray} \faFlask} IPREM
-    Technopôle Hélioparc
-    2 ave du Président P. Angot
-    FR-64053 Pau cedex 9
-    \href{http://iprem.univ-pau.fr/fr/index.html}{http://iprem.univ-pau.fr}
+    Rédaction brevet
+    Suivi Marquage règlementaire
+    Suivi de la documentation
     %
-    \section{Theoretical Chemistry}
-    Computational strategy
-    Development
-    Complex matrices
-    Surfaces, interfaces
-    VASP, CRYSTAL (solid)
-    Gaussian, Orca (molecule)
-    Gromacs, Lammps (MD)
+    \section{Logiciel}
+    C, Matlab
+    Systèmes embarqués %(Arduino, Mbed)
+
+    CAO %(Solidworks, Fusion360, OpenSim)
+
+    Simulation multiphysique %(Flotherm)
+    Conception Electronique %(Simulink, Labview, Zuken, Altium) 
+    Outils d’étude du movement humain %(Nexus pour Vicon, MT Manager pour Xsens (centrales inertielles))
     %
-    \section{Programming}
-    {\color{gray}\faPython} Python
-    Fortran, C
-    \LaTeX{}, HTML/CSS
+    \section{Langues}
+    Français 
+    Anglais 
+    Espagnol
     %
-    \section{Languages}
-    French
-    English 
-    %
-    \section{Bibliometry}
-    18 articles
-    13 conferences
-    h-\textit{index}: 8
-    12.5 citations per item
-    199 citations (181 w/o self-citations)
-    %
-    \section{On the web}
-    \href{https://publons.com/researcher/2764008/}{\color{gray}\faNewspaper\small ~publons 2764008}
-    %\href{http://orcid.org/0000-0003-1116-8776}{$\vcenter{\hbox{\includegraphics[height=4mm]{img/orcid_128x128}}}$\small ~orcid.org/0000-0003-1116-8776}
-    %\href{https://github.com/gVallverdu}{$\vcenter{\hbox{\includegraphics[height=16pt]{img/GitHub-Mark}}}$ gVallverdu}
-    \href{https://github.com/gVallverdu}{\color{gray}\faGithub\small ~GitHub} \href{https://gitlab.com/gvallverdu}{\color{gray}\faGitlab\small ~GitLab}: {\small gvallverdu} 
-    \href{https://gsalvatovallverdu.gitlab.io/}{\color{gray}\faFile*[regular]\small ~gsalvatovallverdu.gitlab.io}
+    \section{Soft Skills}
+    Autonome et proactive
+    Pensée analytique
+    Bon esprit d'équipe
     %
 \end{aside}
 
-\vspace{0mm}
-\section{Abs}{tract}
-\vspace{-0.2cm}
+\section{Rés}{umé}
+
+Mécatronicienne de formation, j’ai eu l’occasion de piloter le développement matériel et logiciel de produits, 
+dès leur phase de développement et jusqu'à leur industrialisation. Il m'a également été donné de pouvoir piloter la mise en conformité de produits 
+déjà existants afin qu'ils répondent aux besoins spécifiques du client.
+Dans ce contexte, j'ai assuré une bonne communication entre toutes les parties prenantes internes et externes concernées, 
+afin de respecter les délais et la qualité du produit final.
+D'une grande capacité d'adaptation, j’aime apprendre au quotidien et partager mes connaissances avec mes collègues.
 
 
-Associate professor at the University of Pau \& Pays Adour, I am a specialist in
-theoretical chemistry, molecular modeling and numerical simulations at IPREM institute.
-My research activities, in physical-chemistry, concern the understanding 
-of macroscopic phenomena such as reactivity, thermochemistry or spectroscopy from
-a microscopic description of matter. The implementation and combination of relevant computational
-strategies allows for the investigation of complex systems in various field among
-petroleum-chemistry, biological systems or energy storage materials.
-
-
-%Associate professor at the University of Pau \& Pays Adour, I am a specialist in
-%theoretical chemistry and numerical simulations at IPREM institute.
-%My research activities concern the development of new methods and
-%computational strategies at different time or space scales, applied to the
-%investigations of complex systems (surfaces, interfaces, complex matrices in
-%condensed matter). I teach mainly chemical-physics subjects and programming
-%languages at the university of Pau.
-
-% Associate professor at the Université de Pau et des Pays de l'Adour,
-% I am a theoretical chemist at IPREM institute (Institute for Analytical sciences and
-% chemical physics applied to environment and materials).
-% My research activities concern the development of new methods in theoretical chemistry
-% and new computational
-% strategies at different time or space scales, applied to the investigations
-% of complex systems.
-% I teach mainly chemical-physics subjects and programming languages at the university of Pau.
-
-%----------------------------------------------------------------------------------------
-%	SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-%\section{skills}
-%  \vspace{-0.2cm}
-
-%Skill 1, skill 2, skill 3, skill 4, skill 5.
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-\vspace{-2mm}
-\section{Professional }{Experiences}
-\vspace{-0.3cm}
+\section{Experience}{ Professionnelle}
 
 \begin{entrylist}
 %------------------------------------------------
 \entry
-  {since 2010~}
-  {Université de Pau et des Pays de l'Adour}
-  {Pau, France}
-  {\jobtitle{Associate professor}\\
-   Theoretical chemistry and computational approaches.
-   Surfaces, interfaces, reactivity and molecular interactions.}
+  {2021}
+  {NeoFarm}
+  {Robotique maraichère}
+  {\jobtitle{Ingénieure mécatronique, Ingénieure industrialisation}\\
+   Développements et tests d'outils maraichers adaptés au robot
+
+   Suivi fournisseurs
+
+   Suivi marquage réglementaire
+
+   Mise en place ERP et règles de conception
+   }
+ 
 %------------------------------------------------
 \entry
-  {2009--2010}
-  {CEA - DAM}
-  {Bruyères le châtel, France}
-  {
-  \jobtitle{Postdoctoral position}\\
-  Development and implementation of a mesoscopic model for reactive shock waves
-  propagation in heterogeneous systems.
+  {2020}
+  {Safran}
+  {Défense}
+  {\jobtitle{Ingénieure système}\\
+  Etude biomécanique
+
+  Recueil et synthèse du besoin en provenance des diverses parties prenantes
+
+  Recherche des solutions existantes sur le marché
+
+  Suivi fournisseurs Français et étrangers
+
+  Déclinaison d’exigences sous IBM DOORS 
   }
 %------------------------------------------------
 \entry
-  {2006--2009}
-  {Université Paris-Sud 11}
-  {Orsay, France}
-  {
-  \jobtitle{PhD Student}\\
-  Theoretical study of photophysical processes in fluorescent proteins.
+  {2018--2019}
+  {Safran - Zodiac}
+  {Aéronautique}
+  {\jobtitle{Chef de projet technique de systèmes mécatronique}\\
+  Recueil du besoin d'un client Italien
+
+  Traduction du besoin en actions R\&D
+
+  Gestion des échanges technique et documentaire entre le client et les différents BE
+
+  Conception de harnais sous Zuken, travail avec l'équipe Production
+
+  Essais du système chez le client
+ 
   }
 %------------------------------------------------
+\entry
+ {2017--2018}
+ {Air Liquide Medical System}
+ {Médical - ventilation}
+ {\jobtitle{Référente mécanique - nouveau produit et plasturgie}\\
+ En charge de l'évolution du système actuel pour réduire les fissures
+
+ Suivi des échantillons initiaux de la coque plastique d'un nouvel appareil
+
+ Suivi des plasturgistes
+
+ 8D
+ }
+%------------------------------------------------
+\entry
+ {2016}
+ {CEA}
+ {Cobotique Agro-alimentaire}
+ {\jobtitle{Chef de projet technique de systèmes cobotique}\\
+ Etude du besoin au poste de travail (biomécanique)
+
+ Recherche de solutions, conception, fabrication de démonstrateurs
+
+ Essais des prototypes par les opérateurs
+
+ Rédaction de brevets
+ }
+%------------------------------------------------
+
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-\vspace{-5mm}
-\section{Educ}{ation}
-\vspace{-0.2cm}
+
+\section{Form}{ation}
 
 \begin{entrylist}
-%------------------------------------------------
+%--------------------------------------G----------
 \entry
-{2006-2009}
-{PhD in chemistry {\normalfont speciality theoretical chemistry}}
-{Université Paris-Sud 11}
-{Mention très honorable}
-%------------------------------------------------
-\entry
-{2004-2006}
-{Master degree of physical-chemistry}
-{Université Paris-Sud 11}
-{{\normalfont speciality \textit{Physico-Chimie Moléculaire}}\par Mention TB}
-%------------------------------------------------
-\entry
-{2003-2004}
-{Bachelor Degree of physical-chemistry}
-{Université Paris-Sud 11}
-{Mention TB}
-%------------------------------------------------
-\entry
-{2003-2006}
-{Magistère de Physico-Chimie Moléculaire}
-{Université Paris-Sud 11 -- ENS Cachan}
-{\vspace{-4mm}}
-%------------------------------------------------
-\entry
-{2001-2003}
-{Undergraduate {\normalfont physics and chemistry}}
-{Lycée François Arago, Perpignan}
+{2013--2015}
+{Master d'ingénierie biomédical {\normalfont spécialité biomécanique}}
+{BME et Arts et Métiers}
 {}
+%------------------------------------------------
+\entry
+{2008--2013}
+{Ecole d'ingénieur en mécatronique {\normalfont spécialité robotique et simulation}}
+{ISTY - UVSQ}
+{6 mois en Corée à l'Université Ajou}
+%------------------------------------------------
+% \entry
+% {2003-2004}
+% {Licence de chimie-physique}
+% {Université Paris-Sud 11}
+% {Mention TB}
+% %------------------------------------------------
+% \entry
+% {2003-2006}
+% {Magistère de Physico-Chimie Moléculaire}
+% {Université Paris-Sud 11 -- ENS Cachan}
+% {}
+% %------------------------------------------------
+% \entry
+% {2001-2003}
+% {CPGE {\normalfont PCSI-PC}}
+% {Lycée François Arago, Perpignan}
+% {}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	OTHER QUALIFICATIONS SECTION
 %----------------------------------------------------------------------------------------
-\vspace{-6mm}
-\section{Main}{ publications}
-\vspace{-0.2cm}
-\nocite{munoz2019, santos2018, aqturin2017_2, santos2017, vallverdu2016, Maillet2011, Vallverdu2010}
-%\nocite{santos2018, aqturin2017_2, santos2017, vallverdu2016, Martin2012, Maillet2011, Vallverdu2010}
-\begin{btSect}{bib/cv_articles}
-    \setlength{\bibsep}{2pt}
-    \btPrintCited
-\end{btSect}
+
+% \section{Publications}{ significatives}
+
+% \nocite{vallverdu2016, guille2015, Guille2014, Martin2012, Maillet2011, Vallverdu2010}
+% \begin{btSect}{bib/articles}
+%     \btPrintCited
+% \end{btSect}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-% \section{interests}
+% \section{Centres d'intérêts}
 %   \vspace{-0.2cm}
 %
-% \textbf{professional:} professional interest 1, professional interest 2 and professional interest 3.
-% \textbf{personal:} personal interest 1, personal interest 2, personal interest 3 and personal interest 4.
-
-%----------------------------------------------------------------------------------------
-%	TEACHING SECTION
-%----------------------------------------------------------------------------------------
-\vspace{-1mm}
-\section{Teach}{ing}
-  \vspace{-0.3cm}
-
-$\bullet$ Lectures in chemical-physics, theoretical chemistry and programming languages.\\
-%in bachelor degrees, master degrees and doctoral school. About 200 h/year\\
-$\bullet$ Strong involvement in new information and communication technologies for education\\
-$\bullet$ Science popularization: Quantum mechanics and workshops for school students
-%organization of animations for secondary and primary school pupils.
-
-\vspace*{-5mm}
-
-%\begin{itemize}
-%    \item Lectures in chemical-physics, theoretical chemistry and programming languages, in bachelor
-%    degrees, master degrees and doctoral school.
-%    \item Science popularization: Quantum mechanics, animations for secondary and primary school pupils
-%\end{itemize}
+% \textbf{Informatiques:} Outils numériques et pédagogiques, programmation,
+% communautée open-source.\\
+% \textbf{Personnels:} Membre au CA de l'association APNEE, rugby, guitare, flûte.
 
 %----------------------------------------------------------------------------------------
 
